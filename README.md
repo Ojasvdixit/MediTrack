@@ -5,9 +5,6 @@ Features
 Appointment Management: Patients can book, view, or cancel appointments.
 Doctor Dashboard: Manage profile, view appointments, and conduct video consultations with patients.
 Admin Dashboard: Manage doctors, patients, and appointments with ease.
-Video Calling: Real-time consultations between doctors and patients.
-Dark/Light Mode Toggle: Users can switch between light and dark modes.
-Multi-language Support: Offers language switching for better accessibility.
 Authentication: Secure login and registration for doctors, patients, and admins.
 
 Technology Stack
