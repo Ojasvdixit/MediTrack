@@ -14,3 +14,5 @@ Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 Video Calling API: (e.g., WebRTC, Twilio)
 Deployment: Vite React, GitHub Pages
+
+https://meditrack-admin.onrender.com
