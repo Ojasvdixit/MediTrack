@@ -1,3 +1,6 @@
+User Panel - https://meditrack-frontend.onrender.com
+Admin/Doctor Panel - https://meditrack-admin.onrender.com
+
 Overview
 MediTrack is a web-based healthcare management system designed to enhance the interaction between doctors and patients. It offers functionalities such as appointment booking, video consultations, and profile management. Admins can manage doctors, patients, and appointments, ensuring efficient operations.
 
@@ -15,4 +18,4 @@ Authentication: JWT (JSON Web Tokens)
 Video Calling API: (e.g., WebRTC, Twilio)
 Deployment: Vite React, GitHub Pages
 
-https://meditrack-admin.onrender.com
+
