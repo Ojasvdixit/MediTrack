@@ -14,6 +14,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify'
 import VideoCall from './components/VideoCall';
+import HealthTips from './components/HealthTips'
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path='/my-profile' element={<MyProfile />} />
         <Route path='/verify' element={<Verify />} />
         <Route path="/video-call" element={<VideoCall />} />
+        <Route path='/health-tips' element ={<HealthTips/> } />
       </Routes>
       <Footer />
     </div>

@@ -25,20 +25,24 @@ const Navbar = () => {
         style={{ margin: '0', padding: '0' }} // Reduce space around the logo
       />
 
-      <ul className='md:flex items-center gap-5 font-medium hidden'>
-        <NavLink to='/'>
-          <li className='py-1'>HOME</li>
-        </NavLink>
-        <NavLink to='/doctors'>
-          <li className='py-1'>ALL DOCTORS</li>
-        </NavLink>
-        <NavLink to='/about'>
-          <li className='py-1'>ABOUT</li>
-        </NavLink>
-        <NavLink to='/contact'>
-          <li className='py-1'>CONTACT</li>
-        </NavLink>
-      </ul>
+        <ul className='md:flex items-center gap-5 font-medium hidden'>
+          <NavLink to='/' className='hover:underline'>
+            <li className='py-1'>HOME</li>
+          </NavLink>
+          <NavLink to='/doctors' className='hover:underline'>
+            <li className='py-1'>ALL DOCTORS</li>
+          </NavLink>
+          <NavLink to='/about' className='hover:underline'>
+            <li className='py-1'>ABOUT</li>
+          </NavLink>
+          <NavLink to='/contact' className='hover:underline'>
+            <li className='py-1'>CONTACT</li>
+          </NavLink>
+          <NavLink to='/health-tips' className='hover:underline'>
+            <li className='py-1'>HEALTH TIPS</li>
+          </NavLink>
+        </ul>
+
 
       <div className='flex items-center gap-4'>
         {token && userData ? (
@@ -82,6 +86,7 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded-full inline-block'>ALL DOCTORS</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded-full inline-block'>ABOUT</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded-full inline-block'>CONTACT</p></NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to='/healthtips'><p className='px-4 py-2 rounded-full inline-block'>HEALTH TIPS</p></NavLink>
           </ul>
         </div>
       </div>
