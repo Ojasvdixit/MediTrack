@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex items-center justify-between py-2 px-4 mb-5 border-b border-b-[#ADADAD]'>
+    <div className='flex items-center justify-between py-2  mb-5 border-b border-b-[#ADADAD] ' >
       {/* Adjusted padding and margin to reduce space */}
       <img
         onClick={() => navigate('/')}
@@ -40,6 +40,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/health-tips' className='hover:underline'>
             <li className='py-1'>HEALTH TIPS</li>
+          </NavLink>
+          <NavLink to='/booking-steps' className='hover:underline'>
+            <li className='py-1'>BOOKING STEPS</li>
           </NavLink>
         </ul>
 
