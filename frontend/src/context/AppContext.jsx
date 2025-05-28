@@ -7,7 +7,8 @@ export const AppContext = createContext()
 const AppContextProvider = (props) => {
 
     const currencySymbol = '₹'
-    const backendUrl = "https://meditrack-backend-9pg4.onrender.com"
+    // const backendUrl = "https://meditrack-backend-9pg4.onrender.com"
+        const backendUrl = import.meta.env.VITE_BACKEND_URL     
 
     const [doctors, setDoctors] = useState([])
     const [token, setToken] = useState(localStorage.getItem('token') ? localStorage.getItem('token') : '')

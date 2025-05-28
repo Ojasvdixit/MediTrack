@@ -7,7 +7,9 @@ export const AdminContext = createContext()
 
 const AdminContextProvider = (props) => {
 
-    const backendUrl = "https://meditrack-backend-9pg4.onrender.com"
+    // const backendUrl = "https://meditrack-backend-9pg4.onrender.com"
+    const backendUrl = import.meta.env.VITE_BACKEND_URL     
+
 
     const [aToken, setAToken] = useState(localStorage.getItem('aToken') ? localStorage.getItem('aToken') : '')
 
