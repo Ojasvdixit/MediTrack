@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify'
-import VideoCall from './components/VideoCall';
+// import VideoCall from './components/VideoCall';
 import HealthTips from './components/HealthTips'
 import BookingSteps from './components/Bookingsteps'
 
@@ -33,7 +33,7 @@ const App = () => {
         <Route path='/my-appointments' element={<MyAppointments />} />
         <Route path='/my-profile' element={<MyProfile />} />
         <Route path='/verify' element={<Verify />} />
-        <Route path="/video-call" element={<VideoCall />} />
+        {/* <Route path="/video-call" element={<VideoCall />} /> */}
         <Route path='/health-tips' element ={<HealthTips/> } />
         <Route path='/booking-steps' element ={<BookingSteps/> } />
       </Routes>
