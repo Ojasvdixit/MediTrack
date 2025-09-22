@@ -29,9 +29,6 @@ Doctors and admins can manage appointments, medical records, and patient informa
 - **Authentication**  
   - Secure login and registration for patients, doctors, and admins (JWT-based).  
 
-- **Video Consultations**  
-  - Support for real-time video calls (via WebRTC / Twilio integration).  
-
 ---
 
 ## 🛠️ Tech Stack
